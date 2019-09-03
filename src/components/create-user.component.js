@@ -33,7 +33,7 @@ export default class CreateUser extends Component {
 
         console.log(user);
 
-        axios.post('http://localhost:5000/users/add', user)
+        axios.post('https://limitless-temple-61121.herokuapp.com/users/add', user)
         .then(res => console.log(res.data));
 
         this.setState({
