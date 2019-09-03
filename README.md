@@ -1,8 +1,8 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-This App is running using Now.
+This App is running using Heroku.
 
-https://mern-exercise-tracker.colinbowen.now.sh
+https://limitless-temple-61121.herokuapp.com/
 
 Open the above link to view and use the webapp.
 
