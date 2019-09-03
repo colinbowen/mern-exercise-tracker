@@ -9,6 +9,7 @@ import EditExercise from "./components/edit-exercise.component";
 import CreateExercise from "./components/create-exercise.component";
 import CreateUser from "./components/create-user.component";
 
+
 function App() {
   return (
     <div className="Container">

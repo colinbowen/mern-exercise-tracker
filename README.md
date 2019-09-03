@@ -2,7 +2,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 This App is running using Heroku.
 
-https://limitless-temple-61121.herokuapp.com/
+https://mern-exertracker-61121.herokuapp.com
 
 Open the above link to view and use the webapp.
 
