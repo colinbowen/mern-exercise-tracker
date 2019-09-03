@@ -24,7 +24,7 @@ export default class ExercisesList extends Component {
   }
 
   componentDidMount() {
-    axios.get('https://limitless-temple-61121.herokuapp.com/exercises/')
+    axios.get('https://warm-dawn-36657.herokuapp.com/exercises/')
       .then(response => {
         this.setState({ exercises: response.data })
       })
@@ -34,7 +34,7 @@ export default class ExercisesList extends Component {
   }
 
   deleteExercise(id) {
-    axios.delete('https://limitless-temple-61121.herokuapp.com/exercises/'+id)
+    axios.delete('https://warm-dawn-36657.herokuapp.com/exercises/'+id)
       .then(response => { console.log(response.data)});
 
     this.setState({

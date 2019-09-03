@@ -23,7 +23,7 @@ export default class CreateExercise extends Component {
   }
 
   componentDidMount() {
-    axios.get('https://limitless-temple-61121.herokuapp.com/users/')
+    axios.get('https://warm-dawn-36657.herokuapp.com/users/')
       .then(response => {
         if (response.data.length > 0) {
           this.setState({
@@ -74,7 +74,7 @@ export default class CreateExercise extends Component {
 
     console.log(exercise);
 
-    axios.post('https://limitless-temple-61121.herokuapp.com/exercises/add', exercise)
+    axios.post('https://warm-dawn-36657.herokuapp.com/exercises/add', exercise)
       .then(res => console.log(res.data));
 
     window.location = '/';
